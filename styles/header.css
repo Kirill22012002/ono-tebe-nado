@@ -10,6 +10,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    list-style: circle;
+    gap: 26px;
+}
+
+.header__link {
+    text-decoration-line: underline;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 3.5px;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
 }
 
 .header__logo {
