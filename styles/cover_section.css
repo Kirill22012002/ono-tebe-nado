@@ -1,0 +1,39 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/cover.jpg);
+    min-height: 757px;
+    opacity: 0.5;
+}
+
+.cover__title {
+    padding: 165px 50px 165px 50px;
+}
+
+.aligned-text,
+.aligned-text_center,
+.aligned-text_right {
+    display: block;
+    font-size: 100px;
+    color: #fff;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: end;
+}
+
+.cover__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cover__description-text {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}

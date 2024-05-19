@@ -1,0 +1,10 @@
+.about__logo-image {
+    width: 240px;
+    background-color: black;
+    border-radius: 50% ;
+}
+
+.about__title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
