@@ -1,9 +1,9 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin: 92px 24px 92px 24px;
+    margin: 92px 24px 96px 24px;
 }
 
 .header__links-list {
@@ -26,6 +26,13 @@
 
 .header__links-list-item_no-bullit {
     list-style-type: none;
+}
+
+/* element will always in center */
+.header__logo-center {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
 }
 
 .header__logo {
