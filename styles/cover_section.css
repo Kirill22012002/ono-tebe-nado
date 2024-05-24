@@ -4,8 +4,19 @@
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 757px;
+    height: 757px;
     width: 100%;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2;   
+    cursor: pointer; 
+    height: 100%;
 }
 
 .cover__title {
@@ -19,16 +30,29 @@
     font-size: 100px;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 17px;
+    letter-spacing: 32px;
     font-weight: 700;
 }
 
 .aligned-text_center {
     text-align: center;
+    padding-right: 25px;
 }
 
 .aligned-text_right {
     text-align: end;
+}
+
+.aligned-text_first-symbol {
+    letter-spacing: 55px;
+}
+
+.aligned-text_without-letter-spacing {
+    letter-spacing: 0;
+}
+
+.aligned-text_last-symbol {
+    padding-left: 25px;
 }
 
 .cover__description {
