@@ -1,49 +1,50 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 97px 24px 98px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 97px 24px 98px 24px;
 }
+
 .header__menu {
-    padding-left: 26.5px;
+  padding-left: 26.5px;
 }
 
 .header__links-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: circle;
-    gap: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: circle;
+  gap: 26px;
 }
 
 .header__link {
-    text-decoration-line: underline;
-    text-decoration-thickness: from-font;
-    text-underline-offset: 3.5px;
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 3.5px;
 }
 
 .header__link_active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header__links-list-item_no-bullit {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* element will always in center */
 .header__logo-center {
-   position: absolute;
-   left: 50%;
-   transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header__logo {
-    width: 148px;
-    height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
 .address {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
