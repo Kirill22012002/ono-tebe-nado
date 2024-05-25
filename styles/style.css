@@ -1,0 +1,19 @@
+/* this file only for run tests */
+
+/* all styles in other files: footer.css, cover_section.css .... etc. */
+
+.address a {
+    text-decoration-line:underline;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 3.5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header__address,
+.footer__address {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}

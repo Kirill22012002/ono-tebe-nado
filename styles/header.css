@@ -3,7 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 92px 24px 96px 24px;
+    margin: 97px 24px 98px 24px;
+}
+.header__menu {
+    padding-left: 26.5px;
 }
 
 .header__links-list {
