@@ -4,7 +4,6 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
-  height: 757px;
   width: 100%;
   margin-bottom: 179px;
 }
@@ -49,7 +48,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 50px 0 78px;
+  padding: 0 50px 51px 78px;
 }
 
 .cover__description-text {
@@ -69,5 +68,6 @@
   width: 256px;
   height: 51px;
   font-size: 22px;
+  font-family: inherit;
   text-transform: uppercase;
 }

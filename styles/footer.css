@@ -6,16 +6,15 @@
   margin: 88px 50px 88px 50px;
 }
 
+.footer__address {
+  padding-top: 5px;
+}
+
 .footer__menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.footer__menu-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  padding-left: 39px;
 }
 
 .footer__menu-list {
@@ -45,7 +44,7 @@
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
-  width: 240px;
+  gap: 48px;
 }
 
 .footer__social-icon {

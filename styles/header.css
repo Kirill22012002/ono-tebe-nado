@@ -3,11 +3,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 97px 24px 98px 24px;
+  margin: 96px 0 91px 0;
+}
+
+.header .address {
+  margin-right: 85px;
 }
 
 .header__menu {
-  padding-left: 26.5px;
+  margin-left: 51px;
 }
 
 .header__links-list {
@@ -15,13 +19,15 @@
   flex-direction: row;
   justify-content: space-between;
   list-style: circle;
-  gap: 26px;
+  gap: 34px;
 }
 
 .header__link {
   text-decoration-line: underline;
   text-decoration-thickness: from-font;
   text-underline-offset: 3.5px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .header__link_active {
@@ -32,19 +38,9 @@
   list-style-type: none;
 }
 
-/* element will always in center */
-.header__logo-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .header__logo {
   width: 148px;
-  height: 105px;
+  padding: 0 5px 0 5px;
+  margin-right: 152px;
 }
 
-.address {
-  display: flex;
-  flex-direction: column;
-}
